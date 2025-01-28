@@ -23,4 +23,10 @@ def main():
             os.system("clear||cls")
             print("Please schedule a consultation.")
 
+def addNumbers(a,b):
+    if str(a).isnumeric() and str(b).isnumeric():
+        return a+b
+    else:
+        return
+
 main()
